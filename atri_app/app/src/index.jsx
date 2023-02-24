@@ -7,7 +7,7 @@ const rootEl = document.getElementById("root");
 
 hydrateRoot(
   rootEl,
-  <BrowserRouter basename={"" || undefined}>
+  <BrowserRouter basename={"/sample" || undefined}>
     <App />
   </BrowserRouter>
 );
